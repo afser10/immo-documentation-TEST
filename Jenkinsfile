@@ -32,11 +32,6 @@ pipeline {
     }
     post {
         always {
-            script {
-                if (getContext(hudson.FilePath)) {
-                    deleteDir()
-                }
-            }
             dir("${env.WORKSPACE}@tmp") {
                deleteDir()
             }
