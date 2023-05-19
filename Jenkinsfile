@@ -16,7 +16,7 @@ pipeline {
             steps {
                 script{
                     sh "docker build . -t immo-docs:latest"
-                    sh "docker run --name immo-docs -v $(pwd)/public:/web-app/public immo-docs:latest"
+                    sh "docker run --name immo-docs -v \$(pwd)/public:/web-app/public immo-docs:latest"
                     sh "docker container rm -f immo-docs"
                     sh "docker image rm immo-docs:latest"
                 }
