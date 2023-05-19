@@ -31,17 +31,6 @@ pipeline {
         }
     }
     post {
-        always {
-            dir("${env.WORKSPACE}@tmp") {
-               deleteDir()
-            }
-            dir("${env.WORKSPACE}@script") {
-                deleteDir()
-            }
-            dir("${env.WORKSPACE}@script@tmp") {
-                deleteDir()
-            }
-        }
         success {
             slackSend (color: '#00FF00', message: "SUCCESS: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL})")
         }
