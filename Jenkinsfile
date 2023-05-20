@@ -26,7 +26,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 script {
-                    sh "aws s3 sync ./public s3://docs-immoviewer/immo/ --delete --acl public-read"
+                    sh "aws s3 sync ./public s3://docs-immoviewer --delete --acl public-read"
                 }
             }
         }
