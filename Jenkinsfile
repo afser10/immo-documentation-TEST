@@ -16,7 +16,7 @@ pipeline {
             steps {
                 script{
                     sh "docker build . -t immo-docs:latest"
-                    sh "docker run --name immo-docs --user 1001:1001 immo-docs:latest --noChmod --noTimes"
+                    sh "docker run --name immo-docs immo-docs:latest --noChmod --noTimes"
                     sh "docker cp immo-docs:/home/jenkins/web-app/public ./public"
                     sh "docker container rm -f immo-docs"
                     sh "docker image rm immo-docs:latest"
