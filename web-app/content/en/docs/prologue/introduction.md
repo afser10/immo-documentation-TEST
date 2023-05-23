@@ -1,7 +1,7 @@
 ---
 title: "Main menu overview"
-description: "111Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
-lead: "222Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+description: "Here we will tell and show which interface elements are responsible for what."
+lead: "Here we will tell and show which interface elements are responsible for what."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
@@ -13,61 +13,36 @@ weight: 100
 toc: true
 ---
 
-## Get started
+### Home
 
-There are two main ways to get started with Doks:
-
-
-### Tutorial
-
-{{< alert icon="👉" text="The Tutorial is intended for novice to intermediate users." />}}
+{{< alert icon="👉" text="This is the main menu in which you will find yourself." />}}
 
 ![figure](/FF1.jpg "Main page")
 
-Step-by-step instructions on how to start a new Doks project. [Tutorial →](https://getdoks.org/tutorial/introduction/)
+### Main Panel
 
-### Quick Start
-
-{{< alert icon="👉" text="The Quick Start is intended for intermediate to advanced users." />}}
-
-One page summary of how to start a new Doks project. [Quick Start →]({{< relref "quick-start" >}})
+{{< alert icon="👉" text="This button will return you to the main menu." />}}
 
 ![figure](/Home.jpg "Home button")
 
-## Go further
-
-Recipes, Reference Guides, Extensions, and Showcase.
+{{< alert icon="👉" text="Orders menu in which you can find the order you need and edit it." />}}
 
 ![figure](/Orders.jpg "Orders page")
 
-### Recipes
-
-Get instructions on how to accomplish common tasks with Doks. [Recipes →](https://getdoks.org/docs/recipes/project-configuration/)
+{{< alert icon="👉" text="This button will take you to the page for creating a new order." />}}
 
 ![figure](/NewOrder.jpg "New order page")
 
-### Reference Guides
+### Settings Panel
 
-Learn how to customize Doks to fully make it your own. [Reference Guides →](https://getdoks.org/docs/reference-guides/security/)
+{{< alert icon="👉" text="Switch language." />}}
 
 ![figure](/Language.jpg "Language switch")
 
-### Extensions
-
-Get instructions on how to add even more to Doks. [Extensions →](https://getdoks.org/docs/extensions/breadcrumb-navigation/)
+{{< alert icon="👉" text="User name and email." />}}
 
 ![figure](/username.jpg "Username / Email")
 
-### Showcase
+{{< alert icon="👉" text="Logout." />}}
 
 ![figure](/Logout.jpg "Logout")
-
-See what others have build with Doks. [Showcase →](https://getdoks.org/showcase/electric-blocks/)
-
-## Contributing
-
-Find out how to contribute to Doks. [Contributing →](https://getdoks.org/docs/contributing/how-to-contribute/)
-
-## Help
-
-Get help on Doks. [Help →]({{< relref "how-to-update" >}})
