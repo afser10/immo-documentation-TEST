@@ -16,8 +16,8 @@ pipeline {
             steps {
                 script{
                     sh "docker build . -t immo-docs:latest"
-                    sh "docker run --name immo-docs immo-docs:latest --noChmod --noTimes"
-                    sh "docker cp immo-docs:/home/jenkins/web-app/public ./public"
+                    sh "docker run --name immoviewer-documentation immo-docs:latest --noChmod --noTimes"
+                    sh "docker cp immoviewer-documentation:/home/jenkins/web-app/public ./public"
                 }
             }
         }
