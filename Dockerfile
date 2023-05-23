@@ -8,4 +8,4 @@ USER jenkins
 RUN mkdir /home/jenkins/web-app
 WORKDIR /home/jenkins/web-app
 COPY --chown=jenkins:jenkins ./web-app .
-RUN npm i && ls -la
+RUN npm i && ls -la 
