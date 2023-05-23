@@ -18,8 +18,6 @@ pipeline {
                     sh "docker build . -t immo-docs:latest"
                     sh "docker run --name immo-docs immo-docs:latest --noChmod --noTimes"
                     sh "docker cp immo-docs:/home/jenkins/web-app/public ./public"
-                    sh "docker container rm -f immo-docs"
-                    sh "docker image rm immo-docs:latest"
                 }
             }
         }
@@ -34,6 +32,7 @@ pipeline {
     post {
         always {
             script {
+                sh "docker rmi --force immo-docs:latest"
                 if (getContext(hudson.FilePath)) {
                     deleteDir()
                 }
