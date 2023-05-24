@@ -8,7 +8,7 @@ pipeline {
                 script {
                     git url: 'git@github.com:danielclipnow/immoviewer-documentation.git',
                     branch: 'main',
-                    credentialsId: '78d56cd0-ba70-412a-882b-5db899071600'
+                    credentialsId: '78d5    6cd0-ba70-412a-882b-5db899071600'
                 }
             }
         }
@@ -23,7 +23,7 @@ pipeline {
                             sh "docker container rm -f immoviewer-documentation"
                             sh "docker run --name immoviewer-documentation immo-docs:latest --noChmod --noTimes"
                         }
-                        catch (Exception e) {
+                        catch (Exception ex) {
                             sh "exit 125"
                         }
                     }
