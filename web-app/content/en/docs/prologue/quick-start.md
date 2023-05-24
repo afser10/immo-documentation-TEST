@@ -15,17 +15,27 @@ toc: true
 
 ## Home page
 
-{{< alert icon="👉" text="Home screen, where you can use different parameters for search. Also from this page you can edit Orders." />}}
-
 ![figure](/OrdersPage.jpg "Orders page")
+
+Home screen, where you can use different parameters for search. Also from this page you can edit Orders.
 
 ### Search options
 
-{{< alert icon="👉"text="Home screen, where you can use different parameters for search. Also from this page you can edit Orders." />}}
-
 ![figure](/SearchFields.jpg "Orders page")
 
-{{< alert icon="👉"text="Home screen, where you can use different parameters for search. Also from this page you can edit Orders." />}}
+* **Service Type** - currently only Furnished Floorplans is available by default.
+* **Customer** - customer, can be both a private and a legal entity.
+* **Status** - represents the status of the project development. {{< details "Status structure" >}}
+  ![figure](/Workflow.jpg "Orders page")
+  {{< /details >}}
+* Assignee -
+* Filter by Internal or External ID -
+
+### Search results
+
+![figure](/Orderinternalexternal.jpg "Orders page")
+
+{{< alert icon="👉"text="Text." />}}
 
 Create a new site, change directories, install dependencies, and start development server.
 
@@ -33,7 +43,12 @@ Create a new site, change directories, install dependencies, and start developme
 
 Doks is available as a child theme and a starter theme.
 
+
+
+<img alt="figure" src="/SearchFields.jpg" title="Orders page"/>
+
 #### Child theme
+
 
 - Intended for novice to intermediate users
 - Intended for minor customizations
@@ -84,3 +99,5 @@ Doks comes with commands for common tasks. [Commands →]({{< relref "commands" 
 {{< details "Why Node.js?" >}}
 Doks111 uses npm (included with Node.js) to centralize dependency management, making it [easy to update]({{< relref "how-to-update" >}}) resources, build tooling, plugins, and build scripts.
 {{< /details >}}
+
+({{< relref "how-to-update" >}})

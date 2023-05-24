@@ -15,34 +15,33 @@ toc: true
 
 ## Home page
 
-{{< alert icon="👉" text="This is the main menu in which you will find yourself." />}}
-
 ![figure](/FF1.jpg "Main page")
+This is the main menu in which you will find yourself.
 
 ### Main Panel
 
-{{< alert icon="👉" text="This button will return you to the main menu." />}}
-
 ![figure](/Home.jpg "Home button")
 
-{{< alert icon="👉" text="Orders menu in which you can find the order you need and edit it." />}}
+This button will return you to the main menu.
 
 ![figure](/Orders.jpg "Orders page")
 
-{{< alert icon="👉" text="This button will take you to the page for creating a new order." />}}
+Orders menu in which you can find the order you need and edit it.
 
 ![figure](/NewOrder.jpg "New order page")
 
-### Settings Panel
+This button will take you to the page for creating a new order.
 
-{{< alert icon="👉" text="Switch language." />}}
+### Settings Panel
 
 ![figure](/Language.jpg "Language switch")
 
-{{< alert icon="👉" text="User name and email." />}}
+Switch language.
 
 ![figure](/username.jpg "Username / Email")
 
-{{< alert icon="👉" text="Logout." />}}
+User name and email.
 
 ![figure](/Logout.jpg "Logout")
+
+Logout.
