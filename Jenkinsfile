@@ -19,8 +19,13 @@ pipeline {
                     try {
                         sh "docker run --name immoviewer-documentation immo-docs:latest --noChmod --noTimes"
                     } catch (Exception e) {
-                        echo 'Exception occurred: ' + e.toString()
-                        sh 'Handle the exception!'
+                        try {
+                            sh "docker container rm -f immoviewer-documentation"
+                            sh "docker run --name immoviewer-documentation immo-docs:latest --noChmod --noTimes"
+                        }
+                        catch (Exception e) {
+                            sh "exit 125"
+                        }
                     }
                     sh "docker cp immoviewer-documentation:/home/jenkins/web-app/public ./public"
                 }
