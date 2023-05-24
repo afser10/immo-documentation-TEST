@@ -13,7 +13,7 @@ weight: 100
 toc: true
 ---
 
-### Home
+## Home page
 
 {{< alert icon="👉" text="This is the main menu in which you will find yourself." />}}
 

@@ -1,7 +1,7 @@
 ---
 title: "Orders menu"
-description: "One page summary of how to start a new Doks project."
-lead: "One page summary of how to start a new Doks project."
+description: "111One page summary of how to start a new Doks project."
+lead: "Here we will show and explain how to search orders, edit them and navigate around."
 date: 2020-11-16T13:59:39+01:00
 lastmod: 2020-11-16T13:59:39+01:00
 draft: false
@@ -13,20 +13,19 @@ weight: 110
 toc: true
 ---
 
-## Requirements
+## Home page
+
+{{< alert icon="👉" text="Home screen, where you can use different parameters for search. Also from this page you can edit Orders." />}}
 
 ![figure](/OrdersPage.jpg "Orders page")
 
-- [Git](https://git-scm.com/) — latest source release
-- [Node.js](https://nodejs.org/) — latest LTS version or newer
+### Search options
 
-{{< details "Why Node.js?" >}}
-Doks uses npm (included with Node.js) to centralize dependency management, making it [easy to update]({{< relref "how-to-update" >}}) resources, build tooling, plugins, and build scripts.
-{{< /details >}}
-
-## Start a new Doks project
+{{< alert icon="👉"text="Home screen, where you can use different parameters for search. Also from this page you can edit Orders." />}}
 
 ![figure](/SearchFields.jpg "Orders page")
+
+{{< alert icon="👉"text="Home screen, where you can use different parameters for search. Also from this page you can edit Orders." />}}
 
 Create a new site, change directories, install dependencies, and start development server.
 
@@ -78,6 +77,10 @@ npm run start
 
 Doks will start the Hugo development webserver accessible by default at `http://localhost:1313`. Saved changes will live reload in the browser.
 
-## Other commands
+### Other commands
 
 Doks comes with commands for common tasks. [Commands →]({{< relref "commands" >}})
+
+{{< details "Why Node.js?" >}}
+Doks111 uses npm (included with Node.js) to centralize dependency management, making it [easy to update]({{< relref "how-to-update" >}}) resources, build tooling, plugins, and build scripts.
+{{< /details >}}
