@@ -32,6 +32,12 @@ pipeline {
     post {
         always {
             script {
+                sh """if [ $(docker ps -aq --filter=ancestor=immo-docs:latest | wc -l) -ne 0 ]
+                    then
+                        docker container rm -f $(docker ps -aq --filter=ancestor=immo-docs:latest);
+                    else
+                        echo 'Image has not any containers"'
+                    fi"""
                 sh "docker rmi --force immo-docs:latest"
                 if (getContext(hudson.FilePath)) {
                     deleteDir()
