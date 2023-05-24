@@ -16,7 +16,12 @@ pipeline {
             steps {
                 script{
                     sh "docker build . -t immo-docs:latest"
-                    sh "docker run --name immoviewer-documentation immo-docs:latest --noChmod --noTimes"
+                    try {
+                        sh "docker run --name immoviewer-documentation immo-docs:latest --noChmod --noTimes"
+                    } catch (Exception e) {
+                        echo 'Exception occurred: ' + e.toString()
+                        sh 'Handle the exception!'
+                    }
                     sh "docker cp immoviewer-documentation:/home/jenkins/web-app/public ./public"
                 }
             }
