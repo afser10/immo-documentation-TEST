@@ -1,4 +1,4 @@
-baseurl = "https://doks-child-theme.netlify.app/"
+baseurl = "http://docs-immoviewer.s3-website.eu-central-1.amazonaws.com"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
