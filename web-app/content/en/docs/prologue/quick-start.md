@@ -51,7 +51,7 @@ Section, where you can use different parameters for search. Also, from this page
 * **Customer** - customer, can be both a private and a legal entity.
 
 ![figure](/Priority.jpg "")
-* **Priority** - indicates how high priority.
+* **Priority** - indicates priority level.
 * **Floors** - amount of floors in current order.
 
 ### Add assignee/Open Order/Copy
