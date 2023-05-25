@@ -1,7 +1,7 @@
 ---
-title: "Main menu overview"
-description: "Here we will tell and show which interface elements are responsible for what."
-lead: "Here we will tell and show which interface elements are responsible for what."
+title: "Home screen overview"
+description: "In this section basic interface elements will be shown and explained."
+lead: "In this section basic interface elements will be shown and explained."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
@@ -22,26 +22,26 @@ This is the main menu in which you will find yourself.
 
 ![figure](/Home.jpg "Home button")
 
-This button will return you to the main menu.
+* This button will return you to the main menu.
 
 ![figure](/Orders.jpg "Orders page")
 
-Orders menu in which you can find the order you need and edit it.
+* Orders menu in which you can find the order you need and edit it.
 
 ![figure](/NewOrder.jpg "New order page")
 
-This button will take you to the page for creating a new order.
+* This button will take you to the page for creating a new order.
 
 ### Settings Panel
 
 ![figure](/Language.jpg "Language switch")
 
-Switch language.
+* Switch language.
 
 ![figure](/username.jpg "Username / Email")
 
-User name and email.
+* User name and email.
 
 ![figure](/Logout.jpg "Logout")
 
-Logout.
+* Logout.
