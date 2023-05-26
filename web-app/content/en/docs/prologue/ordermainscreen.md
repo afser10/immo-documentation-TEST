@@ -18,15 +18,23 @@ toc: true
 ![figure](/Ordermainmenu.jpg "")
 Current Order main page
 
-![figure](/OrderID.jpg "")\
+&nbsp;  
+
+![figure](/OrderID.jpg "")
 * **ID's** - both Internal and External ID's displayed here.
+
+&nbsp;  
 
 ![figure](/CurrentStatus.jpg "")
 * **Current Status** - current status of the Order displayed here.
 
+&nbsp;  
+
 ![figure](/CurrentAssignee.jpg "")
 * **Assignee** - current assignee and his role (Drafter/Superviser/Customer)
 * **Priority** - indicates priority level.
+
+&nbsp;  
 
 ![figure](/Floors.jpg "")
 * **Floors** - displays floors in this order and its names.
@@ -35,11 +43,18 @@ Current Order main page
 * **Download file** - download floorplan in .png .jpg or .json format.
 * **Upload File...** - upload floorplan in***
 * **Upload JSON...** - upload floorplan in .json
-* **Inpspect / Prepare** - 123
-* * **Test** 
+* **Inpspect / Prepare** - start drawing the plan.
+  * **Redraw** - same as Inspect / Prepare but after drawing is done and Status changed to "Await_In_Review"
 
-* 123
-  * 123  
-    * 123
-      * 132
-        * 123
+&nbsp;  
+
+  ![figure](/CurrentAssignee.jpg "")
+    
+132
+
+his is the first line.
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+And this is the second line.

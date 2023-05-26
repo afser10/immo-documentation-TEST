@@ -1,6 +1,6 @@
 ---
-title : "Furnishing Floorplans Main Page"
-description: "Prologue Doks."
+title : "Furnishing Floorplans"
+description: "Furnishing Floorplans"
 lead: ""
 date: 2020-10-06T08:48:45+00:00
 lastmod: 2020-10-06T08:48:45+00:00

@@ -39,16 +39,22 @@ Section, where you can use different parameters for search. Also, from this page
 * **External ID** - the name of the order that you choose when creating it.
 * **Status** - represents current status of Order.
 
+&nbsp; 
+
 ![figure](/Dates.jpg "")
 
 * **First line** - represents time till deadline if colour is green and if colour is red, it means overdue.
 * **Second line** - date/time when Order was created.
 * **Third line** - date/time when Order should be finished.
 
+&nbsp; 
+
 ![figure](/Assignee_Customer.jpg "")
 
 * **Assignee** - person who is currently assigned for this Order (Superviser or Drafter)
 * **Customer** - customer, can be both a private and a legal entity.
+
+&nbsp; 
 
 ![figure](/Priority.jpg "")
 * **Priority** - indicates priority level.
