@@ -24,13 +24,12 @@ This is the main menu in which you will find yourself.
 
 * This button will return you to the main menu.
 
-&nbsp;     
+&nbsp;  
 
-![figure](/Orders.jpg "Orders page") 
-
+![figure](/Orders.jpg "Orders page")
 * Orders menu in which you can find the order you need and edit it.
 
-&nbsp; 
+&nbsp;  
 
 ![figure](/NewOrder.jpg "New order page")
 
@@ -42,13 +41,13 @@ This is the main menu in which you will find yourself.
 
 * Switch language.
 
-&nbsp; 
+&nbsp;  
 
 ![figure](/username.jpg "Username / Email")
 
 * User name and email.
 
-&nbsp; 
+&nbsp;  
 
 ![figure](/Logout.jpg "Logout")
 

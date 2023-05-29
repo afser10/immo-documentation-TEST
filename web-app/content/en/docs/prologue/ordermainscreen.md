@@ -23,7 +23,7 @@ Current Order main page
 ![figure](/OrderID.jpg "")
 * **ID's** - both Internal and External ID's displayed here.
 
-&nbsp;  
+&nbsp;   
 
 ![figure](/CurrentStatus.jpg "")
 * **Current Status** - current status of the Order displayed here.
@@ -48,13 +48,41 @@ Current Order main page
 
 &nbsp;  
 
-  ![figure](/CurrentAssignee.jpg "")
-    
-132
+![figure](/DiffStatuses.jpg "")
+* **Assign...** - 
+* **Unassign** - 
+* **Set Ready** - 
+* **Reject** - 
+* **Start Review** - 
 
-his is the first line.
+&nbsp; 
+
+![figure](/OrderData.jpg "")
+* **Customer...** - 
+* **Library** - 
+* **Style** - 
+* **Creation Date** - 
+* **Deadline Date** - 
+* **Delivery** - 
+
+&nbsp; 
+
+![figure](/FFInfo.jpg "")
+
+Information regarding this options can be found in "Order creation" section -  Click here
+
 &nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-And this is the second line.
+
+![figure](/OrderAttachments.jpg "")
+
+* **Attachments** -
+
+&nbsp; 
+
+![figure](/History.jpg "")
+* **Order history** -
+
+&nbsp; 
+
+![figure](/CommentSection.jpg "")
+* **Comments** -
