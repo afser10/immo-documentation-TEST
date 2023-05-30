@@ -20,21 +20,22 @@ Order creation main page
 
 &nbsp;  
 
+### External ID
 ![figure](/ExternalID.jpg "")
 
-* **Current Status**
+* **External ID** - the name of the order that you choose when creating it.
 
 &nbsp;  
 
 ![figure](/Customer01.jpg "")
 
-* **Current Status**
+* **Current Status** - customer selection menu.
 
 &nbsp;  
 
 ![figure](/ServiceType.jpg "")
 
-* **Current Status**
+* **Current Status** - 
 
 &nbsp;  
 
@@ -70,7 +71,7 @@ Order creation main page
 
 ![figure](/Attachments.jpg "")
 
-* **Current Status**
+* **Attachments** - attachments can be floorplan schematics, logos, watermarks etc.
 
 &nbsp;  
 

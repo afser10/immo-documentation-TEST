@@ -14,3 +14,52 @@ toc: true
 ---
 
 ## Home page
+
+![figure](/EditOrderMain.jpg "")
+Order edit main page
+
+&nbsp;  
+
+![figure](/OrderInfo1.jpg "")
+
+* **Current Status**
+
+&nbsp;  
+
+![figure](/Deadline1.jpg "")
+
+* **Current Status**
+
+&nbsp;  
+
+![figure](/Floor2.jpg "")
+
+* **Current Status**
+
+&nbsp;  
+
+![figure](/Attachments01.jpg "")
+
+* **Current Status**
+
+&nbsp;  
+
+![figure](/LogoWatermark.jpg "")
+
+* **Current Status**
+
+&nbsp;  
+
+![figure](/RightPanel01.jpg "")
+
+* **Current Status**
+
+&nbsp;  
+
+
+
+
+| Veryyyyyyy  
+| yyyyyyyyyyyyyy Looooo  
+| oooooooooooooooo
+| oooooooooooong 
