@@ -88,7 +88,19 @@ Current Order main page
 ### Floorplan information
 ![figure](/FFInfo.jpg "")
 
-Information regarding this options can be found in "Order creation" section -  Click here
+* **Furniture** - should the plan only be visualized or furnished also.
+* **North Arrow** - if the plan has a North arrow or not.
+* **Room Designation** - if the individual Rooms have names or not.
+* **Floor Plan Desig.** - if the plan has a Name.
+* **Align North** - if the plan should be rotated towards North.
+* **Flat Designation** - if the storey should be specified.
+* **Dimensional Chains** - If the plan has Dimensional Chains or not.
+* **Meter Bars** - if the plan has a Meter Bar on it.
+* **Isometric** - 
+* **Square Meter S.** - if the plan has Square Meter numbers for each room.
+* **Scale Ratio** - 
+* **Logo** - if the plan should show a Logo or not.
+* **Watermark** - if the plan has a Watermark or not.
 
 &nbsp;  
 

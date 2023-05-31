@@ -27,63 +27,87 @@ Order creation main page
 
 &nbsp;  
 
+### Customer ID
 ![figure](/Customer01.jpg "")
 
-* **Current Status** - customer selection menu.
+* **Customer** - customer selection menu.
 
 &nbsp;  
 
+### Service Type
 ![figure](/ServiceType.jpg "")
 
-* **Current Status** - 
+* **Service Type** - only Furnished Floorplan is available at the moment.
 
 &nbsp;  
 
+### Priority
 ![figure](/Priority01.jpg "")
 
-* **Current Status**
+* **Priority** - indicates priority level.
 
 &nbsp;  
 
+### Library used
 ![figure](/Library01.jpg "")
 
-* **Current Status**
+* **Library** - represents what type of assets are used.
 
 &nbsp;  
 
+### Style
 ![figure](/Style01.jpg "")
 
-* **Current Status**
+* **Style** - currently only Black_White is available now.
 
 &nbsp;  
 
+### Deadline
 ![figure](/Deadline.jpg "")
 
-* **Current Status**
+* **Deadline** - sets time of deadline.
 
 &nbsp;  
 
+### Floors
 ![figure](/Floors01.jpg "")
 
-* **Current Status**
+* **Floors** - adds additional floors, their number and name.
 
 &nbsp;  
 
+### Attachments
 ![figure](/Attachments.jpg "")
 
-* **Attachments** - attachments can be floorplan schematics, logos, watermarks etc.
+* **Attachments** - attachments can be floorplan schematics, logos, watermarks or any additional information.
 
 &nbsp;  
 
+### PLACEHOLDER
 ![figure](/RightPanel.jpg "")
 
-* **Current Status**
+* **PLACEHOLDER** - 
 
 &nbsp;  
 
+### Workorder specifications
 ![figure](/OrderInfo.jpg "")
 
-* **Current Status**
+* **Furniture** - should the plan only be visualized or furnished also.
+* **North Arrow** - if the plan has a North arrow or not.
+* **Room Designation** - if the individual Rooms have names or not.
+* **Floor Plan Desig.** - if the plan has a Name.
+* **Align North** - if the plan should be rotated towards North.
+* **Flat Designation** - if the storey should be specified.
+* **Dimensional Chains** - If the plan has Dimensional Chains or not.
+* **Meter Bars** - if the plan has a Meter Bar on it.
+* **Isometric** - 
+* **Square Meter S.** - if the plan has Square Meter numbers for each room.
+* **Scale Ratio** - 
+* **Logo** - if the plan should show a Logo or not.
+* **Watermark** - if the plan has a Watermark or not.
+
+
 
 
 {{< alert icon="💡" text="You can change the commands in the scripts section of `./package.json`." />}}
