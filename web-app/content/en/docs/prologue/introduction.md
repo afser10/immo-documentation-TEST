@@ -1,7 +1,7 @@
 ---
-title: "Home screen overview"
-description: "In this section basic interface elements will be shown and explained."
-lead: "In this section basic interface elements will be shown and explained."
+title: "Main menu overview"
+description: "Here we will tell and show which interface elements are responsible for what."
+lead: "Here we will tell and show which interface elements are responsible for what."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
@@ -15,40 +15,34 @@ toc: true
 
 ## Home page
 
+{{< alert icon="👉" text="This is the main menu in which you will find yourself." />}}
+
 ![figure](/FF1.jpg "Main page")
-This is the main menu in which you will find yourself.
 
 ### Main Panel
 
+{{< alert icon="👉" text="This button will return you to the main menu." />}}
+
 ![figure](/Home.jpg "Home button")
 
-* This button will return you to the main menu.
-
-&nbsp;  
+{{< alert icon="👉" text="Orders menu in which you can find the order you need and edit it." />}}
 
 ![figure](/Orders.jpg "Orders page")
-* Orders menu in which you can find the order you need and edit it.
 
-&nbsp;  
+{{< alert icon="👉" text="This button will take you to the page for creating a new order." />}}
 
 ![figure](/NewOrder.jpg "New order page")
 
-* This button will take you to the page for creating a new order.
+### Settings Panel
 
-### Settings Panel 
+{{< alert icon="👉" text="Switch language." />}}
 
 ![figure](/Language.jpg "Language switch")
 
-* Switch language.
-
-&nbsp;  
+{{< alert icon="👉" text="User name and email." />}}
 
 ![figure](/username.jpg "Username / Email")
 
-* User name and email.
-
-&nbsp;  
+{{< alert icon="👉" text="Logout." />}}
 
 ![figure](/Logout.jpg "Logout")
-
-* Logout.

@@ -1,7 +1,7 @@
 ---
-title: "Furnished Floorplans Editor"
-description: "In this section will be shown FF Editor."
-lead: "In this section will be shown FF Editor."
+title: "FAQ"
+description: "Answers to frequently asked questions."
+lead: "Answers to frequently asked questions."
 date: 2020-10-06T08:49:31+00:00
 lastmod: 2020-10-06T08:49:31+00:00
 draft: false
@@ -9,53 +9,42 @@ images: []
 menu:
   docs:
     parent: "help"
-weight: 610
+weight: 630
 toc: true
 ---
 
-## Home page
+## Hyas?
 
-![figure](/FFEditorMainPage.jpg "")
-Furnished Floorplans Editor main page
+Doks is a [Hyas theme](https://gethyas.com/themes/) build by the creator of Hyas.
 
-&nbsp;  
+## Footer notice?
 
-### Settings / Options
-![figure](/FFEditorSettings.jpg "")
+Please keep it in place.
 
-* **TEST1** - 
+## Keyboard shortcuts for search?
 
-&nbsp;  
+- focus: `Ctrl + /`
+- select: `↓` and `↑`
+- open: `Enter`
+- close: `Esc`
 
-### Library
-![figure](/FFEditorLibrary.jpg "")
+## Other documentation?
 
-* **TEST1** - 
+- [Netlify](https://docs.netlify.com/)
+- [Hugo](https://gohugo.io/documentation/)
 
-&nbsp;  
+## Can I get support?
 
-### Workorder info panel
-![figure](/FFEditorWorkorderInfo.jpg "")
+Create a topic:
 
-* **TEST1** - 
+- [Netlify Community](https://community.netlify.com/)
+- [Hugo Forums](https://discourse.gohugo.io/)
+- [Doks Discussions](https://github.com/h-enk/doks/discussions)
 
-&nbsp;  
+## Contact the creator?
 
-### Main tool's panel
-![figure](/FFEditorMainPanel.jpg "")
+Send `h-enk` a message:
 
-* **TEST1** - 
-
-&nbsp;  
-
-### Assets / Icons
-![figure](/FFEditorAssetsIcons.jpg "")
-
-* **TEST1** - 
-
-&nbsp;  
-
-### Image Settings
-![figure](/FFEditorOpacity.jpg "")
-
-* **TEST1** - 
+- [Netlify Community](https://community.netlify.com/)
+- [Hugo Forums](https://discourse.gohugo.io/)
+- [Doks Discussions](https://github.com/h-enk/doks/discussions)
