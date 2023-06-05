@@ -1,7 +1,7 @@
 ---
-title: "Orders menu"
-description: "111One page summary of how to start a new Doks project."
-lead: "Here we will show and explain how to search orders, edit them and navigate around."
+title: "Orders list"
+description: "In this section will be explained and shown how to use search and check its results."
+lead: "In this section will be explained and shown how to use search and check its results."
 date: 2020-11-16T13:59:39+01:00
 lastmod: 2020-11-16T13:59:39+01:00
 draft: false
@@ -15,72 +15,55 @@ toc: true
 
 ## Home page
 
-{{< alert icon="👉" text="Home screen, where you can use different parameters for search. Also from this page you can edit Orders." />}}
+![figure](/OrdersPage.jpg "")
 
-![figure](/OrdersPage.jpg "Orders page")
+Section, where you can use different parameters for search. Also, from this page you can open Order's.
 
 ### Search options
 
-{{< alert icon="👉"text="Home screen, where you can use different parameters for search. Also from this page you can edit Orders." />}}
+![figure](/SearchFields.jpg "")
 
-![figure](/SearchFields.jpg "Orders page")
+* **Service Type** - currently only Furnished Floorplans is available by default.
+* **Customer** - customer, can be both a private and a legal entity.
+* **Status** - represents the status of the project development. {{< details "Status structure" >}}
+  ![figure](/Workflow.jpg "")
+  {{< /details >}}
+* **Assignee** - person who is currently assigned for this Order (Superviser or Drafter)
+* **Filter by Internal or External ID** - can be used to search Order by its ID's.
 
-{{< alert icon="👉"text="Home screen, where you can use different parameters for search. Also from this page you can edit Orders." />}}
+### Search results
 
-Create a new site, change directories, install dependencies, and start development server.
+![figure](/Orderinternalexternal.jpg "")
 
-### Create a new site
+* **Internal ID** - is automatically assigned uniqe ID number "i.e FP-133" when you create an order.
+* **External ID** - the name of the order that you choose when creating it.
+* **Status** - represents current status of Order.
 
-Doks is available as a child theme and a starter theme.
+&nbsp; 
 
-#### Child theme
+![figure](/Dates.jpg "")
 
-- Intended for novice to intermediate users
-- Intended for minor customizations
-- [Easily update npm packages]({{< relref "how-to-update" >}}) — __including__ [Doks](https://www.npmjs.com/package/@hyas/doks)
+* **First line** - represents time till deadline if colour is green and if colour is red, it means overdue.
+* **Second line** - date/time when Order was created.
+* **Third line** - date/time when Order should be finished.
 
-```bash
-git clone https://github.com/h-enk/doks-child-theme.git my-doks-site
-```
+&nbsp; 
 
-#### Starter theme
+![figure](/Assignee_Customer.jpg "")
 
-- Intended for intermediate to advanced users
-- Intended for major customizations
-- [Easily update npm packages]({{< relref "how-to-update" >}})
+* **Assignee** - person who is currently assigned for this Order (Superviser or Drafter)
+* **Customer** - customer, can be both a private and a legal entity.
 
-```bash
-git clone https://github.com/h-enk/doks.git my-doks-site
-```
+&nbsp; 
 
-{{< details "Help me choose" >}}
-Not sure which one is for you? Pick the child theme.
-{{< /details >}}
+![figure](/Priority.jpg "")
+* **Priority** - indicates priority level.
+* **Floors** - amount of floors in current order.
 
-### Change directories
+### Add assignee/Open Order/Copy
 
-```bash
-cd my-doks-site
-```
+![figure](/Actions.jpg "")
 
-### Install dependencies
-
-```bash
-npm install
-```
-
-### Start development server
-
-```bash
-npm run start
-```
-
-Doks will start the Hugo development webserver accessible by default at `http://localhost:1313`. Saved changes will live reload in the browser.
-
-### Other commands
-
-Doks comes with commands for common tasks. [Commands →]({{< relref "commands" >}})
-
-{{< details "Why Node.js?" >}}
-Doks111 uses npm (included with Node.js) to centralize dependency management, making it [easy to update]({{< relref "how-to-update" >}}) resources, build tooling, plugins, and build scripts.
-{{< /details >}}
+* **Assign to...** - assign to a different person.
+* **Open Order** - opens the Order.
+* **Copy Orders data** - copies information regarding current order like: date of creation, internal and external ID's, customer, amount of floors and link to this Order.
