@@ -87,6 +87,8 @@ Order creation main page
 ![figure](/RightPanel.jpg "")
 
 * **PLACEHOLDER** - 
+* **PLACEHOLDER** - 
+* **Drawing Type** - whether the client wants the whole plan to be drawn or just a separate apartment from this plan
 
 &nbsp;  
 
