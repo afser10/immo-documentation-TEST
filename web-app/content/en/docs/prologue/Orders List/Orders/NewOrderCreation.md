@@ -1,5 +1,5 @@
 ---
-title: "New Order creation"
+title: "3. New Order creation"
 description: "In this section will be explained how to create new order and what options are available."
 lead: "In this section will be explained how to create new order and what options are available."
 date: 2020-10-13T15:21:01+02:00
@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "prologue"
-weight: 130
+weight: 3
 toc: true
 ---
 
@@ -20,42 +20,42 @@ Order creation main page
 
 &nbsp;  
 
-### External ID
+### Basic information
 ![figure](/ExternalID.jpg "")
 
 * **External ID** - the name of the order that you choose when creating it.
 
 &nbsp;  
 
-### Customer ID
+
 ![figure](/Customer01.jpg "")
 
 * **Customer** - customer selection menu.
 
 &nbsp;  
 
-### Service Type
+
 ![figure](/ServiceType.jpg "")
 
 * **Service Type** - only Furnished Floorplan is available at the moment.
 
 &nbsp;  
 
-### Priority
+
 ![figure](/Priority01.jpg "")
 
 * **Priority** - indicates priority level.
 
 &nbsp;  
 
-### Library used
+### Library and Style
 ![figure](/Library01.jpg "")
 
 * **Library** - represents what type of assets are used.
 
 &nbsp;  
 
-### Style
+
 ![figure](/Style01.jpg "")
 
 * **Style** - currently only Black_White is available now.
@@ -83,15 +83,6 @@ Order creation main page
 
 &nbsp;  
 
-### PLACEHOLDER
-![figure](/RightPanel.jpg "")
-
-* **PLACEHOLDER** - 
-* **PLACEHOLDER** - 
-* **Drawing Type** - whether the client wants the whole plan to be drawn or just a separate apartment from this plan
-
-&nbsp;  
-
 ### Workorder specifications
 ![figure](/OrderInfo.jpg "")
 
@@ -109,12 +100,11 @@ Order creation main page
 * **Logo** - if the plan should show a Logo or not.
 * **Watermark** - if the plan has a Watermark or not.
 
+&nbsp;  
 
+### PLACEHOLDER
+![figure](/RightPanel.jpg "")
 
-
-{{< alert icon="💡" text="You can change the commands in the scripts section of `./package.json`." />}}
-
-
-```bash
-npm run create -- --kind docs [section]
-```
+* **PLACEHOLDER** - 
+* **PLACEHOLDER** - 
+* **Drawing Type** - whether the client wants the whole plan to be drawn or just a separate apartment from this plan

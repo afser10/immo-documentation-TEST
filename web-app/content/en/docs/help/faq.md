@@ -1,5 +1,5 @@
 ---
-title: "Furnished Floorplans Editor"
+title: "1. Furnished Floorplans Editor overview"
 description: "In this section will be shown FF Editor."
 lead: "In this section will be shown FF Editor, navigation, tools, settings."
 date: 2020-10-06T08:49:31+00:00
@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "help"
-weight: 610
+weight: 1
 toc: true
 ---
 
@@ -30,10 +30,11 @@ Furnished Floorplans Editor main page
 
 &nbsp;  
 
-### Library
+### Preferences
 ![figure](/FFEditorLibrary.jpg "")
 
-* **Preferences** - select library with predefined assets
+* **Library** - a set of furniture models and technical designations, also 
+* **Style** - affects the external design of the plan (the color of the walls, floor textures, countertops).
 
 &nbsp;  
 
@@ -48,14 +49,14 @@ Furnished Floorplans Editor main page
 ![figure](/FFEditorMainPanel.jpg "")
 
 * **Move** - allows you to move across the plan
-* **Sketch** - 
+* **Sketch** - draw walls
 * **Draw lines** - 
 * **Draw chains** - 
-* **Rotate** - 
-* **Erase** - 
-* **Door** - 
-* **Window** - 
-* **Box** - 
+* **Rotate** - rotate the draw plan
+* **Erase** - delete object
+* **Door** - place a door
+* **Window** - place a window
+* **Box** - place a square shape room
 * **Additional tools** - 
 
 &nbsp;  
@@ -63,11 +64,21 @@ Furnished Floorplans Editor main page
 ### Assets / Icons
 ![figure](/FFEditorAssetsIcons.jpg "")
 
-* **TEST1** - 
+*From top to buttom
+* **Construction**
+* **Furniture**
+* **Bathroom items**
+* **Kitechen**
+* **Stairs Assets**
+* **Surroundings**
+* **North Arrows**
+* **Tech**
+* **Additional Assets**
 
 &nbsp;  
 
 ### Image Settings
 ![figure](/FFEditorOpacity.jpg "")
 
-* **TEST1** - 
+* **Opacity** - transparency change.
+* **Opacity** - changes scale of the imported floorplan compared to drawn plan.

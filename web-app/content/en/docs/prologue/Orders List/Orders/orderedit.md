@@ -1,5 +1,5 @@
 ---
-title: "Order edit"
+title: "4. Order edit"
 description: "In this section will be shown how you can edit Order and what options can be changed."
 lead: "In this section will be shown how you can edit Order and what options can be changed."
 date: 2020-10-06T08:48:57+00:00
@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "prologue"
-weight: 140
+weight: 4
 toc: true
 ---
 
@@ -33,29 +33,34 @@ Order edit main page
 
 &nbsp;  
 
-### Change Deadline
+
 ![figure](/Deadline1.jpg "")
 
 * **Deadline Date** - change deadline date/time.
 
 &nbsp;  
 
-### Change Floor settings
+
 ![figure](/Floor2.jpg "")
 
 * **Floors** - add or remove floors, change numbers and names.
  
+&nbsp; 
+
+![figure](/OrderInfo01.jpg "")
+* **Order info** - more detailed information can be found <a href="/docs/prologue/commands/#workorder-specifications">Here</a>.</p>
+
 
 &nbsp;  
 
-### Add Attachments
+### Add Attachments, Logo, Watermark
 ![figure](/Attachments01.jpg "")
 
 * **Attachments** - add attachments, such as floorplan schematics, logos, watermarks or any additional information.
 
 &nbsp;  
 
-### Logo and Watermark
+
 ![figure](/LogoWatermark.jpg "")
 
 * **Current Status** - add or remove image of Logo or Watermark.
@@ -66,6 +71,8 @@ Order edit main page
 ### PLACEHOLDER
 ![figure](/RightPanel01.jpg "")
 
-* **PLACEHOLDER**
+* **PLACEHOLDER** - 
+* **PLACEHOLDER** - 
+* **Drawing Type** - whether the client wants the whole plan to be drawn or just a separate apartment from this plan
 
 &nbsp;  

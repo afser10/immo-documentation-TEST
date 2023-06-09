@@ -1,5 +1,5 @@
 ---
-title: "Order main page"
+title: "1. Order main page"
 description: "In this section will be explained Order details."
 lead: "In this section will be explained Order details."
 date: 2020-10-06T08:48:57+00:00
@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "prologue"
-weight: 120
+weight: 1
 toc: true
 ---
 
@@ -20,13 +20,13 @@ Current Order main page
 
 &nbsp;  
 
-### Internal / External ID's
+### Basic information
 ![figure](/OrderID.jpg "")
 * **ID's** - both Internal and External ID's displayed here.
 
 &nbsp;   
 
-### Order Status
+
 ![figure](/CurrentStatus1.jpg "")
 * **Current Status** - current status of the Order.
  {{< details "Status structure" >}}
@@ -35,14 +35,14 @@ Current Order main page
 
 &nbsp;  
 
-### Assignees
+
 ![figure](/CurrentAssignee.jpg "")
 * **Assignee** - current assignee and his role (Drafter/Superviser/Customer)
 * **Priority** - indicates priority level.
 
 &nbsp;  
 
-### Floors
+
 ![figure](/Floors.jpg "")
 * **Floors** - displays floors in this order and its names.
 * **Сlip** - you can download floorplan here in .json format
@@ -85,38 +85,26 @@ Current Order main page
 
 &nbsp; 
 
-### Floorplan information
+
 ![figure](/FFInfo.jpg "")
 
-* **Furniture** - should the plan only be visualized or furnished also.
-* **North Arrow** - if the plan has a North arrow or not.
-* **Room Designation** - if the individual Rooms have names or not.
-* **Floor Plan Desig.** - if the plan has a Name.
-* **Align North** - if the plan should be rotated towards North.
-* **Flat Designation** - if the storey should be specified.
-* **Dimensional Chains** - If the plan has Dimensional Chains or not.
-* **Meter Bars** - if the plan has a Meter Bar on it.
-* **Isometric** - 
-* **Square Meter S.** - if the plan has Square Meter numbers for each room.
-* **Scale Ratio** - 
-* **Logo** - if the plan should show a Logo or not.
-* **Watermark** - if the plan has a Watermark or not.
+* **Order information** - more detailed information can be found <a href="/docs/prologue/commands/#workorder-specifications">Here</a>.</p>
 
 &nbsp;  
 
-### Order attachments
+### Order log / Attachments
 ![figure](/OrderAttachments.jpg "")
 
 * **Attachments** - attachments can be floorplan schematics, logos, watermarks etc.
 
 &nbsp; 
 
-### Order log
+
 ![figure](/History1.jpg "")
 * **Order history** - contains changes that have been made.
 
 &nbsp; 
 
-### Order comments
+
 ![figure](/CommentSection.jpg "")
 * **Comments** - section for comments.
