@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "prologue"
-weight: 1
+weight: 0200
 toc: true
 ---
 
@@ -88,7 +88,7 @@ Current Order main page
 
 ![figure](/FFInfo.jpg "")
 
-* **Order information** - more detailed information can be found <a href="/docs/prologue/commands/#workorder-specifications">Here</a>.</p>
+* **Order information** - more detailed information can be found <a href="/docs/prologue/orders-list/orders/newordercreation/#workorder-specifications">Here</a>.</p>
 
 &nbsp;  
 

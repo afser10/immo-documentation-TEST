@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "prologue"
-weight: 4
+weight: 0350
 toc: true
 ---
 
@@ -48,7 +48,7 @@ Order edit main page
 &nbsp; 
 
 ![figure](/OrderInfo01.jpg "")
-* **Order info** - more detailed information can be found <a href="/docs/prologue/commands/#workorder-specifications">Here</a>.</p>
+* **Order info** - more detailed information can be found <a href="/docs/prologue/orders-list/orders/newordercreation/#workorder-specifications">Here</a>.</p>
 
 
 &nbsp;  
