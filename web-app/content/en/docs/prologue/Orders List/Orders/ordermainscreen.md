@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "prologue"
-weight: 0200
+weight: 0254
 toc: true
 ---
 
@@ -28,10 +28,8 @@ Current Order main page
 
 
 ![figure](/CurrentStatus1.jpg "")
-* **Current Status** - current status of the Order.
- {{< details "Status structure" >}}
-  ![figure](/Workflow.jpg "")
-  {{< /details >}}
+* **Current Status** - current status of the Order. More detailed information can be found <a href="/docs/prologue/orders-list/status/">Here</a>.</p>
+
 
 &nbsp;  
 

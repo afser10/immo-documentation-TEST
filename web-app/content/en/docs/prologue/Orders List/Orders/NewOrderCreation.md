@@ -1,5 +1,5 @@
 ---
-title: "3. New Order creation"
+title: "2. New Order creation"
 description: "In this section will be explained how to create new order and what options are available."
 lead: "In this section will be explained how to create new order and what options are available."
 date: 2020-10-13T15:21:01+02:00

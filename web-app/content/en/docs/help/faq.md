@@ -68,7 +68,7 @@ Furnished Floorplans Editor main page
 * **Construction**
 * **Furniture**
 * **Bathroom items**
-* **Kitechen**
+* **Kitchen**
 * **Stairs Assets**
 * **Surroundings**
 * **North Arrows**
@@ -81,4 +81,4 @@ Furnished Floorplans Editor main page
 ![figure](/FFEditorOpacity.jpg "")
 
 * **Opacity** - transparency change.
-* **Opacity** - changes scale of the imported floorplan compared to drawn plan.
+* **Scale** - changes scale of the imported floorplan compared to drawn plan.

@@ -1,5 +1,5 @@
 ---
-title: "4. Order edit"
+title: "3. Order edit"
 description: "In this section will be shown how you can edit Order and what options can be changed."
 lead: "In this section will be shown how you can edit Order and what options can be changed."
 date: 2020-10-06T08:48:57+00:00
