@@ -28,7 +28,7 @@ Current Order main page
 
 
 ![figure](/CurrentStatus1.jpg "")
-* **Current Status** - current status of the Order. More detailed information can be found <a href="/docs/prologue/orders-list/status/">Here</a>.</p>
+* **Current Status** - current status of the Order. Cant change the Status per hand (it is locked and only moves to the next State with the Trigger on the Button) More detailed information can be found <a href="/docs/prologue/orders-list/status/">Here</a>.</p>
 
 
 &nbsp;  
@@ -36,7 +36,7 @@ Current Order main page
 
 ![figure](/CurrentAssignee.jpg "")
 * **Assignee** - current assignee and his role (Drafter/Superviser/Customer)
-* **Priority** - indicates priority level.
+* **Priority** - indicates priority level. Priority can be changed as pleased by the Supervisor.
 
 &nbsp;  
 
@@ -55,20 +55,20 @@ Current Order main page
 
 ### Order options
 ![figure](/DiffStatuses.jpg "")
-* **Assign...** - assign Order to Supervisor or Drafter.
-* **Unassign** - unassign person from current Order.
-* **Set Ready** - if everything is clear and ready, Supervisor starts the project.
+* **Assign...** - assign Order to Supervisor or Drafter. During the state “NEW” the Supervisor can assign another Supervisorto finish the preparation of the Order.
+* **Unassign** - unassign person from current Order. This Button is an Emergency Button. Normally you shouldn't be able to change the assigned Person during IN_PROGRESS. Either the Person finishes the Work on it OR  he will reassign himself from it with the Button for example if he gets sick or can't continue work etc.
+* **Set Ready** - if everything is clear and ready, Supervisor starts the project, this will send the Order into the next State of TO_DO.
 * **Reject** - if something is wrong or requires clarification from the customer, Supervisor can reject the current project.
 * **Start Review** - start review by Supervisor.
 
 &nbsp;  
 
 ![figure](/Bar.jpg "")
-* **Add Floor** - add additional floor.
-* **Upload Files/ Logo / Watermark** - upload image of Logo or Watermark.
-* **Edit Order** - edit Order.
-* **Copy Order data** - copies information regarding current order like: date of creation, internal and external ID’s, customer, amount of floors and link to this Order.
-* **Delete Order** - delete current Order.
+* **Add Floor** - Supervisor can add additional floor.
+* **Upload Files/ Logo / Watermark** - Supervisor can attach more files (Files / Logo / Watermark).
+* **Edit Order** - Supervisor can edit Order.
+* **Copy Order data** - Supervisor can copy information to Clipboard regarding current order like: date of creation, internal and external ID’s, customer, amount of floors and link to this Order.
+* **Delete Order** - Supervisor can delete current Order.
 
 &nbsp; 
 
@@ -99,7 +99,8 @@ Current Order main page
 
 
 ![figure](/History1.jpg "")
-* **Order history** - contains changes that have been made.
+* **Order history** - contains changes that have been made. More detailed information can be found <a href="/docs/prologue/orders-list/orders/orderhistory/">Here</a>.</p>
+
 
 &nbsp; 
 

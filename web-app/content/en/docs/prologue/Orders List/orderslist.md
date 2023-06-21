@@ -25,7 +25,7 @@ Section, where you can use different parameters for search. Also, from this page
 
 * **Service Type** - currently only Furnished Floorplans is available by default.
 * **Customer** - customer, can be both a private and a legal entity.
-* **Status** - represents the status of the project development. {{< details "Status structure" >}}
+* **Status** - represents the status of the project development. {{< details "Work workflow" >}}
   ![figure](/Workflow.jpg "")
   {{< /details >}}
 * **Assignee** - person who is currently assigned for this Order (Superviser or Drafter)

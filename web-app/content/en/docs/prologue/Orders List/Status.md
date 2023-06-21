@@ -14,14 +14,14 @@ toc: true
 ---
 
 ## Home page
-This diagram shows the whole workflow.
+This diagram shows the work workflow.
 
 ![figure](/Workflow01.jpg "")
 
 ### NEW
 ![figure](/FFstatusnew.jpg "")
 
-* **NEW** - Supervisor opens the Order with the “Pencil” button. Check the attached files, Furnished Floor Plan Information, etc. Edits the order settings if necessary (adds floors, adjusts floors names…) 
+* Supervisor opens the Order with the “Pencil” button. Check the attached files, Furnished Floor Plan Information, etc. Edits the order settings if necessary (adds floors, adjusts floors names…) 
 
   Gives a comment to Drafter on the specifications, additional information. Assigns the Order to a Drafter ->  Clicks on the “Set Ready” -> The order is ready for being started by the assigned user (TO_DO) 
 
@@ -40,7 +40,7 @@ This diagram shows the whole workflow.
 ### TO_DO
 ![figure](/FFstatustodo.jpg "")
 
-* **TO_DO** - Drafter gets familiar with the Order information and starts working in the editor -> “Start Drawing”  
+* Drafter gets familiar with the Order information and starts working in the editor -> “Start Drawing”  
 
 * **Drafter** (assigned user): can view, can upload files. “Start Drawing” button is available. Can’t open the editor page (Until the next status)
 * **Drafter** (any user): no available  actions
@@ -53,7 +53,7 @@ This diagram shows the whole workflow.
 ### IN_PROGRESS
 ![figure](/FFstatusinprogress.jpg "")
 
-* **IN_PROGRESS** - “Inspect / Prepare” button is now available and redirects to the editor page. Drafter works on the FF. 
+* “Inspect / Prepare” button is now available and redirects to the editor page. Drafter works on the FF. 
 
   Drafter has a break between shifts -> “Log time w/o finish” -> “Just log time” -> “Start Drawing” 
 
@@ -71,7 +71,7 @@ This diagram shows the whole workflow.
 ### AWAIT_IN_REVIEW
 ![figure](/FFstatusawaitinreview.jpg "")
 
-* **AWAIT_IN_REVIEW** - Supervisor clicks on the “Start Review” -> “Inspect/Prepare” button gets available and Status changes to IN_REVIEW
+* Supervisor clicks on the “Start Review” -> “Inspect/Prepare” button gets available and Status changes to IN_REVIEW
 
 * **Drafter**: no actions available
 * **Supervisor**: can’t start working in the editor until the next status
@@ -85,12 +85,10 @@ This diagram shows the whole workflow.
 ### IN_REVIEW
 ![figure](/FFstatusinreview.jpg "")
 
-* **IN_REVIEW** - “Inspect/Prepare” (or “Redraw”) button redirects to the editor. Supervisor makes corrections of the Order. 
-
+* “Inspect/Prepare” (or “Redraw”) button redirects to the editor. Supervisor makes corrections of the Order. 
   Sends the final floor plan to the customer by “Send to External Provider” Button
 
 * **Supervisor** can change the status back to TO_DO and assign it to another Drafter.
-
 * **Drafter**: no actions available
 * **Supervisor**: All functionality is available except editing of the order
 * **Status change action**: Send to External Provider
@@ -102,7 +100,8 @@ This diagram shows the whole workflow.
 ### EXTERNAL_REVIEW
 ![figure](/FFstatusexternalreview.jpg "")
 
-* **EXTERNAl_REVIEW** - The Supervisor has to wait till the feedback comes from the customer.
+* The Supervisor has to wait till the feedback comes from the customer.
+
 * **Drafter**: Can’t view, no available actions.
 * **Supervisor**: Can view without editing, Can export files.
 * **Status change action**: External data. The Status can be changed manually by a Supervisor, when the feedback is provided.
@@ -113,3 +112,35 @@ This diagram shows the whole workflow.
 
 ### NEW_ITERATION
 ![figure](/FFstatusnewiteration.jpg "")
+
+* Customer feedback is provided by email -> NEW_ITERATION status coincides to TO_DO
+
+  If no further feedback -> the status automatically changes to DONE after 90 days after completion
+
+
+* **Drafter**: no actions available
+* **Supervisor**: All functionality is available except editing of the order
+
+* **Status change action**: Start Drawing
+
+
+&nbsp; 
+
+
+### Correction
+![figure](/FFstatuscorrection.jpg "")
+* Same as IN_PROGRESS. But has Send to External Provider button -> the order is corrected according to the feedback -> DONE status
+
+* **Drafter**: no actions available
+* **Supervisor**: All functionality is available
+
+
+&nbsp; 
+
+
+### Done
+![figure](/FFstatusdone.jpg "")
+
+* **Supervisor**: still can write Comments (also attachments are downloadable)
+
+* **Drafter**: During DONE a drafter can only see the Order and use the Comments but nothing else
