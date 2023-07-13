@@ -18,86 +18,49 @@ toc: true
 
 There are different users who work with the Editor: Drafters, Supervisors, Reviewers and Customers. Each user has their own role, which determines their responsibilities and accesses.
 
-### Drafter
+&nbsp; 
 
 **Drafter** - Person responsible for drawing plans. Has limited access to system functionality.
 
-
-&nbsp; 
-
-
-* Orders list - Can see orders assigned to them (To_DO, In_Progress)
-* Assign button - ❌ ![figure](/Role1.jpg "")
-* Open order/"Pencil" button" - ✔️ For orders assigned to them ![figure](/Role2.jpg "")
-* New order creation - ❌ ![figure](/Role3.jpg "")
-
-* Order editing, deleting - ❌ ![figure](/Role4.jpg "")
-* File upload, Json upload, Inspect/prepare buttons - ✔️ ![figure](/Role5.jpg "")
-* Floors deleting - ❌ ![figure](/Role6.jpg "")
-* Attachments removing - ❌ ![figure](/Role7.jpg "")
-* Comments section - ✔️ ![figure](/Role8.jpg "")
-* Status "New" - ❌ 
-* Status "Rejected" - ❌
-* Status "TO_DO" - For orders assigned to them
-* Status "In_Progress" - ❌
-* Status "Await_In_Review" - ❌
-* Status "In_Review" - ❌
-* Status "External_Review" - ❌
-* Status "New_Iteration" - ❌
-* Status "Correction" - ❌																																							
-
-### Supervisor
-
 **Supervisor** - The head above the Drafter, manages Drafter, provide feedback to him and has extended rights and permissions.
-
-
-&nbsp; 
-
-
-* Orders list - Can see all orders in any status (To_DO, In_Progress)
-* Assign button - ✔️ ![figure](/Role1.jpg "")
-* Open order/"Pencil" button" - ✔️![figure](/Role2.jpg "")
-* New order creation - ✔️ ![figure](/Role3.jpg "")
-
-* Order editing, deleting - ✔️ ![figure](/Role4.jpg "")
-* File upload, Json upload, Inspect/prepare buttons - ✔️ ![figure](/Role5.jpg "")
-* Floors deleting - ✔️ ![figure](/Role6.jpg "")
-* Attachments removing - ✔️ ![figure](/Role7.jpg "")
-* Comments section - ✔️ ![figure](/Role8.jpg "")
-* Status "New" - ✔️ 
-* Status "Rejected" - ✔️
-* Status "TO_DO" - For orders assigned to them
-* Status "In_Progress" - ✔️
-* Status "Await_In_Review" - ✔️
-* Status "In_Review" - ✔️
-* Status "External_Review" - ✔️
-* Status "New_Iteration" - ✔️
-* Status "Correction" - ✔️
-
-### Reviewer
 
 **Reviewer** - Checks and corrects, if necessary, orders after the Drafters and before sending them to the customer. Reviewer does not assign orders, does not create or cannot edit anything in the settings.
 
+**Customer** - This is the customer to whom the order is assigned. But from the current ones, the customer is only Imogent.
+
+&nbsp; 
+
+{{< details "NEW" >}}
+||| **Drafter**  | **Reviewer** | **Supervisor**  | **Customer** |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| NEW |  | <span style="background-color:red">no one | <span style="background-color:red">no one | <span style="background-color:green">all | <span style="background-color:green">only created by him |
+| new | change status to the next | <span style="background-color:red">no | <span style="background-color:red">no | <span style="background-color:green">yes | <span style="background-color:red">no |
+| new | edit order | <span style="background-color:red">no | <span style="background-color:red">no | <span style="background-color:green">yes | <span style="background-color:red">no |
+| new | upload png/jpeg | <span style="background-color:red">no | <span style="background-color:red">no | <span style="background-color:green">yes | <span style="background-color:red">no |
+| new | upload json | <span style="background-color:red">no | <span style="background-color:red">no | <span style="background-color:green">yes | <span style="background-color:red">no |
+| new | download floorplan | <span style="background-color:red">no | <span style="background-color:red">no | <span style="background-color:green">yes | <span style="background-color:red">no |
+| new | delete order | <span style="background-color:red">no | <span style="background-color:red">no | <span style="background-color:green">yes | <span style="background-color:red">no |
+| new | inspect/prepare/draw/redraw | <span style="background-color:red">no | <span style="background-color:red">no | <span style="background-color:green">yes | <span style="background-color:red">no |
+| new | assign order | <span style="background-color:red">no | <span style="background-color:red">no | <span style="background-color:green">yes | <span style="background-color:red">no |
+{{< /details >}}
+
+
+{{< details "REJECTED" >}}
+||| **Drafter**  | **Reviewer** | **Supervisor**  | **Customer** |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| REJECTED |  | <span style="background-color:red">no one | <span style="background-color:red">no one | <span style="background-color:green">all | <span style="background-color:green">only created by him |
+| rejected | change status to TO_DO | <span style="background-color:red">no | <span style="background-color:red">no | <span style="background-color:green">yes | <span style="background-color:red">no |
+| rejected | edit order | <span style="background-color:red">no | <span style="background-color:red">no | <span style="background-color:green">yes | <span style="background-color:red">no |
+| rejected | upload png/jpeg | <span style="background-color:red">no | <span style="background-color:red">no | <span style="background-color:green">yes | <span style="background-color:red">no |
+| rejected | upload json | <span style="background-color:red">no | <span style="background-color:red">no | <span style="background-color:green">yes | <span style="background-color:red">no |
+| rejected | download floorplan | <span style="background-color:red">no | <span style="background-color:red">no | <span style="background-color:green">yes | <span style="background-color:red">no |
+| rejected | delete order | <span style="background-color:red">no | <span style="background-color:red">no | <span style="background-color:green">yes | <span style="background-color:red">no |
+| rejected | inspect/prepare/draw/redraw | <span style="background-color:red">no | <span style="background-color:red">no | <span style="background-color:green">yes | <span style="background-color:red">no |
+| rejected | assign order | <span style="background-color:red">no | <span style="background-color:red">no | <span style="background-color:green">yes | <span style="background-color:red">no |
+{{< /details >}}
+
 
 &nbsp; 
 
 
-* Orders list - Can see all Unassigned orders in the status Await In Review, orders assigned to them (To_DO, In_Progress, Await_In_Review, In_Review)
-* Assign button - ❌ for orders in (To_DO, In_Progress, Await_In_Review, In_Review) ![figure](/Role1.jpg "")
-* Open order/"Pencil" button" - ❌ for orders in (To_DO, In_Progress, Await_In_Review, In_Review) ![figure](/Role2.jpg "")
-* New order creation - ❌ ![figure](/Role3.jpg "")
-
-* Order editing, deleting - ❌ ![figure](/Role4.jpg "")
-* File upload, Json upload, Inspect/prepare buttons - ✔️ ![figure](/Role5.jpg "")
-* Floors deleting - ❌ ![figure](/Role6.jpg "")
-* Attachments removing - ❌ ![figure](/Role7.jpg "")
-* Comments section - ✔️ ![figure](/Role8.jpg "")
-* Status "New" - ❌ 
-* Status "Rejected" - ✔️
-* Status "TO_DO" - For orders assigned to them
-* Status "In_Progress" - ✔️
-* Status "Await_In_Review" - ✔️
-* Status "In_Review" - ✔️
-* Status "External_Review" - ❌
-* Status "New_Iteration" - ❌
-* Status "Correction" - ❌
+TEST
