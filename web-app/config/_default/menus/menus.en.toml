@@ -39,7 +39,10 @@
 #   url = "/tutorial/lorem/ipsum/"
 #   weight = 15
 
-
+# [[main]]
+#   name = "Tutorial1"
+#   url = "/docs/1.0/prologue/introduction/"
+#   weight = 50
 
 
 [[social]]

@@ -1,0 +1,101 @@
+,,Drafter,Reviewer,Supervisor,Customer
+new,,no one,no one,all,only created by him
+new,change status to the next,no,no,yes,no
+new,edit order,no,no,yes,no
+new,upload png/jpeg,no,no,yes,no
+new,upload json,no,no,yes,no
+new,download floorplan,no,no,yes,no
+new,delete order,no,no,yes,no
+new,inspect/prepare/draw/redraw,no,no,yes,no
+new,assign order,no,no,yes,no
+rejected,,no one,no one,all,only created by him
+rejected,change status to TO_DO,no,no,yes,no
+rejected,edit order,no,no,no,no
+rejected,upload png/jpeg,no,no,yes,no
+rejected,upload json,no,no,yes,no
+rejected,download floorplan,no,no,yes,no
+rejected,delete order,no,no,yes,no
+rejected,inspect/prepare/draw/redraw,no,no,no,no
+rejected,assign order,no,no,no,no
+to do,,only assigned to him,only assigned to him,all,only created by him
+to do,change status to the next,yes,yes,yes,no
+to do,edit order,no,no,yes,no
+to do,upload png/jpeg,yes,yes,yes,no
+to do,upload json,yes,yes,yes,no
+to do,download floorplan,yes,yes,yes,no
+to do,delete order,no,no,no,no
+to do,inspect/prepare/draw/redraw,no,no,no,no
+to do,assign order,no,no,yes,no
+in progress,,only assigned to him,only assigned to him,all,only created by him
+in progress,change status to the next,yes,yes,yes,
+in progress,edit order,no,no,no,
+in progress,upload png/jpeg,yes,yes,yes,
+in progress,upload json,yes,yes,yes,
+in progress,download floorplan,yes,yes,yes,
+in progress,delete order,no,no,no,
+in progress,inspect/prepare/draw/redraw,yes,yes,yes,
+in progress,assign order,no,no,yes,
+await in review,,no one,all,all,only created by him
+await in review,change status to the next,no,yes,yes,no
+await in review,edit order,no,no,no,no
+await in review,upload png/jpeg,no,yes,yes,no
+await in review,upload json,no,yes,yes,no
+await in review,download floorplan,no,yes,yes,no
+await in review,delete order,no,no,no,no
+await in review,inspect/prepare/draw/redraw,no,no,no,no
+await in review,assign order,no,no,yes,no
+in review,,no one,only assigned to him,all,only created by him
+in review,change status to the next,no,yes,yes,
+in review,change status to TO_DO,no,yes,yes,
+in review,edit order,no,no,yes,
+in review,upload png/jpeg,no,yes,yes,
+in review,upload json,no,yes,yes,
+in review,download floorplan,no,yes,yes,
+in review,delete order,no,no,no,
+in review,inspect/prepare/draw/redraw,no,yes,yes,
+in review,assign order,no,no,yes,
+external review,,no one,no one,all,only created by him
+external review,change status to the next,no,no,+,-
+external review,edit order,no,no,,
+external review,upload png/jpeg,no,no,,
+external review,upload json,no,no,,
+external review,download floorplan,no,no,,
+external review,delete order,no,no,,
+external review,inspect/prepare/draw/redraw,no,no,,
+external review,assign order,no,no,,
+new iteration,,no one,no one,all,only created by him
+new iteration,change status to the next,no,no,,
+new iteration,edit order,no,no,,
+new iteration,upload png/jpeg,no,no,,
+new iteration,upload json,no,no,,
+new iteration,download floorplan,no,no,,
+new iteration,delete order,no,no,,
+new iteration,inspect/prepare/draw/redraw,no,no,,
+new iteration,assign order,no,no,,
+correction,,no one,no one,all,only created by him
+correction,change status to the next,no,no,+,-
+correction,edit order,no,no,,
+correction,upload png/jpeg,no,no,,
+correction,upload json,no,no,,
+correction,download floorplan,no,no,,
+correction,delete order,no,no,,
+correction,inspect/prepare/draw/redraw,no,no,,
+correction,assign order,no,no,,
+done,,no one,no one,all,only created by him
+done,change status to the next,no,no,,
+done,edit order,no,no,,
+done,upload png/jpeg,no,no,,
+done,upload json,no,no,,
+done,download floorplan,no,no,,
+done,delete order,no,no,,
+done,inspect/prepare/draw/redraw,no,no,,
+done,assign order,no,no,,
+general rights:,,,,,
+general rights,create order,no,no,yes,yes
+general rights,add comment,yes,yes,yes,yes
+general rights,add attachments,no,no,yes,yes
+general rights,add floor,no,no,yes,
+general rights,delete floor,no,no,yes,
+general rights,remove attachments,no,no,yes,
+general rights,restore archived order,no,no,yes,
+general rights,remove archived order,no,no,yes,

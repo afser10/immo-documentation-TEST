@@ -1,0 +1,877 @@
+@font-face {
+    font-family: quicksand;
+    src: url(static\Quicksand-Regular.ttf);
+}
+
+    table, th, td {
+    border: solid;
+    border-width: 1px;
+    font-style: normal;
+    font-weight: normal;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-family: quicksand;
+    font-size: 0.9em;
+    vertical-align: middle;
+    
+}
+
+    th {
+    width: 100px;
+    
+}
+
+    .content-table {
+        text-align: center;
+        border-radius: 5px 5px 0 0;
+    
+    }
+
+
+    .content-table thead {
+        background-color:#009879;
+        color:#ffffff;
+        text-align: center;
+        font-weight: bold;
+        height: 0;
+        overflow: hidden;
+    }
+
+
+    .content-table tbody tr {
+        border-bottom: 2px solid #dddddd;
+        height: 0;
+        overflow: hidden;
+    }
+
+
+     /* .content-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3f3;
+ 
+    } */
+
+    .content-table tbody tr.active-row {
+        font-weight:bold;
+        color: #009879;
+
+    }
+
+label[for="test1"] {
+    font-size: 18px;
+    display: block;
+    cursor: pointer;
+    padding: 10px 10px 10px 30px;
+    position: relative;
+    user-select: none;
+    margin-top: 0;
+}
+
+label[for="test1"]:before {
+    content: " ";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+    font-size: 0;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    transition: 0.5s;
+    transform-origin: 3px center;
+}
+
+input[id="test1"] {
+    display: none;
+}
+
+input[id="test1"]:checked ~ label[for="test1"]:before {
+    transform: rotate(90deg);
+}
+
+
+input[id="test1"]:checked ~ .content-table {
+    height: 0;
+    padding: 10px;
+    opacity: 1;
+    display: table;
+    margin-bottom: 20px;
+}
+
+.content-table {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: block;
+    margin: 0;    
+}
+
+
+label[for="test2"] {
+    font-size: 18px;
+    display: block;
+    cursor: pointer;
+    padding: 10px 10px 10px 30px;
+    position: relative;
+    user-select: none;
+    margin-top: 0;
+}
+
+label[for="test2"]:before {
+    content: " ";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+    /* height: 0; */
+    font-size: 0;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    transition: 0.5s;
+    transform-origin: 3px center;
+}
+
+input[id="test2"]{
+    display: none;
+    
+}
+
+
+input[id="test2"]:checked ~ .content-table1 {
+    height: 0;
+    padding: 10px;
+    opacity: 1;
+    display: table;
+    margin-bottom: 20px;   
+    
+}
+
+input[id="test2"]:checked ~ label[for="test2"]:before {
+    transform: rotate(90deg);
+}
+
+.content-table1 {
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.content-table1 thead {
+    background-color:#009879;
+    color:#ffffff;
+    text-align: center;
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+}
+
+.content-table1 tbody tr {
+    border-bottom: 2px solid #dddddd;
+    height: 0;
+    overflow: hidden;
+}
+
+.content-table1 tbody tr.active-row {
+    font-weight:bold;
+    color: #009879;
+
+}
+
+.content-table1 {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: block;
+    margin: 0; 
+}
+
+label[for="test3"] {
+    font-size: 18px;
+    display: block;
+    cursor: pointer;
+    padding: 10px 10px 10px 30px;
+    position: relative;
+    user-select: none;
+    margin-top: 0;
+}
+
+label[for="test3"]:before {
+    content: " ";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+    /* height: 0; */
+    font-size: 0;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    transition: 0.5s;
+    transform-origin: 3px center;
+}
+
+input[id="test3"]{
+    display: none;
+    
+}
+
+
+input[id="test3"]:checked ~ .content-table2 {
+    height: 0;
+    padding: 10px;
+    opacity: 1;
+    display: table;
+    margin-bottom: 20px;   
+    
+}
+
+input[id="test3"]:checked ~ label[for="test3"]:before {
+    transform: rotate(90deg);
+}
+
+.content-table2 {
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.content-table2 thead {
+    background-color:#009879;
+    color:#ffffff;
+    text-align: center;
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+}
+
+.content-table2 tbody tr {
+    border-bottom: 2px solid #dddddd;
+    height: 0;
+    overflow: hidden;
+}
+
+.content-table2 tbody tr.active-row {
+    font-weight:bold;
+    color: #009879;
+
+}
+
+.content-table2 {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: block;
+    margin: 0; 
+}
+
+label[for="test4"] {
+    font-size: 18px;
+    display: block;
+    cursor: pointer;
+    padding: 10px 10px 10px 30px;
+    position: relative;
+    user-select: none;
+    margin-top: 0;
+}
+
+label[for="test4"]:before {
+    content: " ";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+    /* height: 0; */
+    font-size: 0;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    transition: 0.5s;
+    transform-origin: 3px center;
+}
+
+input[id="test4"]{
+    display: none;
+    
+}
+
+
+input[id="test4"]:checked ~ .content-table3 {
+    height: 0;
+    padding: 10px;
+    opacity: 1;
+    display: table;
+    margin-bottom: 20px;   
+    
+}
+
+input[id="test4"]:checked ~ label[for="test4"]:before {
+    transform: rotate(90deg);
+}
+
+.content-table3 {
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.content-table3 thead {
+    background-color:#009879;
+    color:#ffffff;
+    text-align: center;
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+}
+
+.content-table3 tbody tr {
+    border-bottom: 2px solid #dddddd;
+    height: 0;
+    overflow: hidden;
+}
+
+.content-table3 tbody tr.active-row {
+    font-weight:bold;
+    color: #009879;
+
+}
+
+.content-table3 {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: block;
+    margin: 0; 
+}
+
+label[for="test5"] {
+    font-size: 18px;
+    display: block;
+    cursor: pointer;
+    padding: 10px 10px 10px 30px;
+    position: relative;
+    user-select: none;
+    margin-top: 0;
+}
+
+label[for="test5"]:before {
+    content: " ";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+    /* height: 0; */
+    font-size: 0;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    transition: 0.5s;
+    transform-origin: 3px center;
+}
+
+input[id="test5"]{
+    display: none;
+    
+}
+
+
+input[id="test5"]:checked ~ .content-table4 {
+    height: 0;
+    padding: 10px;
+    opacity: 1;
+    display: table;
+    margin-bottom: 20px;   
+    
+}
+
+input[id="test5"]:checked ~ label[for="test5"]:before {
+    transform: rotate(90deg);
+}
+
+.content-table4 {
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.content-table4 thead {
+    background-color:#009879;
+    color:#ffffff;
+    text-align: center;
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+}
+
+.content-table4 tbody tr {
+    border-bottom: 2px solid #dddddd;
+    height: 0;
+    overflow: hidden;
+}
+
+.content-table4 tbody tr.active-row {
+    font-weight:bold;
+    color: #009879;
+
+}
+
+.content-table4 {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: block;
+    margin: 0; 
+}
+
+label[for="test6"] {
+    font-size: 18px;
+    display: block;
+    cursor: pointer;
+    padding: 10px 10px 10px 30px;
+    position: relative;
+    user-select: none;
+    margin-top: 0;
+}
+
+label[for="test6"]:before {
+    content: " ";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+    /* height: 0; */
+    font-size: 0;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    transition: 0.5s;
+    transform-origin: 3px center;
+}
+
+input[id="test6"]{
+    display: none;
+    
+}
+
+
+input[id="test6"]:checked ~ .content-table5 {
+    height: 0;
+    padding: 10px;
+    opacity: 1;
+    display: table;
+    margin-bottom: 20px;   
+    
+}
+
+input[id="test6"]:checked ~ label[for="test6"]:before {
+    transform: rotate(90deg);
+}
+
+.content-table5 {
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.content-table5 thead {
+    background-color:#009879;
+    color:#ffffff;
+    text-align: center;
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+}
+
+.content-table5 tbody tr {
+    border-bottom: 2px solid #dddddd;
+    height: 0;
+    overflow: hidden;
+}
+
+.content-table5 tbody tr.active-row {
+    font-weight:bold;
+    color: #009879;
+
+}
+
+.content-table5 {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: block;
+    margin: 0; 
+}
+
+
+label[for="test7"] {
+    font-size: 18px;
+    display: block;
+    cursor: pointer;
+    padding: 10px 10px 10px 30px;
+    position: relative;
+    user-select: none;
+    margin-top: 0;
+}
+
+label[for="test7"]:before {
+    content: " ";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+    /* height: 0; */
+    font-size: 0;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    transition: 0.5s;
+    transform-origin: 3px center;
+}
+
+input[id="test7"]{
+    display: none;
+    
+}
+
+
+input[id="test7"]:checked ~ .content-table6 {
+    height: 0;
+    padding: 10px;
+    opacity: 1;
+    display: table;
+    margin-bottom: 20px;   
+    
+}
+
+input[id="test7"]:checked ~ label[for="test7"]:before {
+    transform: rotate(90deg);
+}
+
+.content-table6 {
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.content-table6 thead {
+    background-color:#009879;
+    color:#ffffff;
+    text-align: center;
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+}
+
+.content-table6 tbody tr {
+    border-bottom: 2px solid #dddddd;
+    height: 0;
+    overflow: hidden;
+}
+
+.content-table6 tbody tr.active-row {
+    font-weight:bold;
+    color: #009879;
+
+}
+
+.content-table6 {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: block;
+    margin: 0; 
+}
+
+label[for="test8"] {
+    font-size: 18px;
+    display: block;
+    cursor: pointer;
+    padding: 10px 10px 10px 30px;
+    position: relative;
+    user-select: none;
+    margin-top: 0;
+}
+
+label[for="test8"]:before {
+    content: " ";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+    /* height: 0; */
+    font-size: 0;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    transition: 0.5s;
+    transform-origin: 3px center;
+}
+
+input[id="test8"]{
+    display: none;
+    
+}
+
+
+input[id="test8"]:checked ~ .content-table7 {
+    height: 0;
+    padding: 10px;
+    opacity: 1;
+    display: table;
+    margin-bottom: 20px;   
+    
+}
+
+input[id="test8"]:checked ~ label[for="test8"]:before {
+    transform: rotate(90deg);
+}
+
+.content-table7 {
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.content-table7 thead {
+    background-color:#009879;
+    color:#ffffff;
+    text-align: center;
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+}
+
+.content-table7 tbody tr {
+    border-bottom: 2px solid #dddddd;
+    height: 0;
+    overflow: hidden;
+}
+
+.content-table7 tbody tr.active-row {
+    font-weight:bold;
+    color: #009879;
+
+}
+
+.content-table7 {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: block;
+    margin: 0; 
+}
+
+label[for="test9"] {
+    font-size: 18px;
+    display: block;
+    cursor: pointer;
+    padding: 10px 10px 10px 30px;
+    position: relative;
+    user-select: none;
+    margin-top: 0;
+}
+
+label[for="test9"]:before {
+    content: " ";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+    /* height: 0; */
+    font-size: 0;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    transition: 0.5s;
+    transform-origin: 3px center;
+}
+
+input[id="test9"]{
+    display: none;
+    
+}
+
+
+input[id="test9"]:checked ~ .content-table8 {
+    height: 0;
+    padding: 10px;
+    opacity: 1;
+    display: table;
+    margin-bottom: 20px;   
+    
+}
+
+input[id="test9"]:checked ~ label[for="test9"]:before {
+    transform: rotate(90deg);
+}
+
+.content-table8 {
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.content-table8 thead {
+    background-color:#009879;
+    color:#ffffff;
+    text-align: center;
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+}
+
+.content-table8 tbody tr {
+    border-bottom: 2px solid #dddddd;
+    height: 0;
+    overflow: hidden;
+}
+
+.content-table8 tbody tr.active-row {
+    font-weight:bold;
+    color: #009879;
+
+}
+
+.content-table8 {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: block;
+    margin: 0; 
+}
+
+label[for="test10"] {
+    font-size: 18px;
+    display: block;
+    cursor: pointer;
+    padding: 10px 10px 10px 30px;
+    position: relative;
+    user-select: none;
+    margin-top: 0;
+}
+
+label[for="test10"]:before {
+    content: " ";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+    /* height: 0; */
+    font-size: 0;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    transition: 0.5s;
+    transform-origin: 3px center;
+}
+
+input[id="test10"]{
+    display: none;
+    
+}
+
+
+input[id="test10"]:checked ~ .content-table9 {
+    height: 0;
+    padding: 10px;
+    opacity: 1;
+    display: table;
+    margin-bottom: 20px;   
+    
+}
+
+input[id="test10"]:checked ~ label[for="test10"]:before {
+    transform: rotate(90deg);
+}
+
+.content-table9 {
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.content-table9 thead {
+    background-color:#009879;
+    color:#ffffff;
+    text-align: center;
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+}
+
+.content-table9 tbody tr {
+    border-bottom: 2px solid #dddddd;
+    height: 0;
+    overflow: hidden;
+}
+
+.content-table9 tbody tr.active-row {
+    font-weight:bold;
+    color: #009879;
+
+}
+
+.content-table9 {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: block;
+    margin: 0; 
+}
+
+label[for="test11"] {
+    font-size: 18px;
+    display: block;
+    cursor: pointer;
+    padding: 10px 10px 10px 30px;
+    position: relative;
+    user-select: none;
+    margin-top: 0;
+}
+
+label[for="test11"]:before {
+    content: " ";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+    /* height: 0; */
+    font-size: 0;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    transition: 0.5s;
+    transform-origin: 3px center;
+}
+
+input[id="test11"]{
+    display: none;
+    
+}
+
+
+input[id="test11"]:checked ~ .content-table10 {
+    height: 0;
+    padding: 10px;
+    opacity: 1;
+    display: table;
+    margin-bottom: 20px;   
+    
+}
+
+input[id="test11"]:checked ~ label[for="test11"]:before {
+    transform: rotate(90deg);
+}
+
+.content-table10 {
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.content-table10 thead {
+    background-color:#009879;
+    color:#ffffff;
+    text-align: center;
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+}
+
+.content-table10 tbody tr {
+    border-bottom: 2px solid #dddddd;
+    height: 0;
+    overflow: hidden;
+}
+
+.content-table10 tbody tr.active-row {
+    font-weight:bold;
+    color: #009879;
+
+}
+
+.content-table10 {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: block;
+    margin: 0; 
+}
