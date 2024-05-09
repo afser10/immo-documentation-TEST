@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        label "agent-1"
-    }
+    agent any
   	stages {
   	    stage('Clean workspace and Checkout Code') {
 			steps {
