@@ -12,8 +12,8 @@ menu:
 weight: 0251
 toc: true
 ---
-![figure](/CurrentStatus1.jpg "")
+!{figure} /CurrentStatus1.jpg ""
 * **Current Status** - current status of the Order.
- {{< details "Status structure" >}}
-  ![figure](/Workflow.jpg "")
-  {{< /details >}}
+ {{% details "Status structure" %}}
+  !{figure} /Workflow.jpg ""
+  {{% /details %}}

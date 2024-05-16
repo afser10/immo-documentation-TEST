@@ -26,7 +26,7 @@ Section, where you can use different parameters for search. Also, from this page
 * **Service Type** - currently only Furnished Floorplans is available by default.
 * **Customer** - customer, can be both a private and a legal entity.
 * **Status** - represents the status of the project development. {{< details "Work workflow" >}}
-  ![figure](/Workflow.jpg "")
+  ![figure](/Workflow.jpg)
   {{< /details >}}
 * **Assignee** - person who is currently assigned for this Order (Superviser or Drafter)
 * **Filter by Internal or External ID** - can be used to search Order by its ID's.
@@ -39,7 +39,7 @@ Section, where you can use different parameters for search. Also, from this page
 * **External ID** - the name of the order that you choose when creating it.
 * **Status** - represents current status of Order.
 
-&nbsp; 
+&nbsp;
 
 ![figure](/Dates.jpg "")
 
@@ -47,14 +47,14 @@ Section, where you can use different parameters for search. Also, from this page
 * **Second line** - date/time when Order was created.
 * **Third line** - date/time when Order should be finished.
 
-&nbsp; 
+&nbsp;
 
 ![figure](/Assignee_Customer.jpg "")
 
 * **Assignee** - person who is currently assigned for this Order (Superviser or Drafter)
 * **Customer** - customer, can be both a private and a legal entity.
 
-&nbsp; 
+&nbsp;
 
 ![figure](/Priority.jpg "")
 * **Priority** - indicates priority level.
