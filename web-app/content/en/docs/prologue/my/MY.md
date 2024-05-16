@@ -99,13 +99,13 @@ toc: true
 
 <!-- Стили для списка таймкодов -->
 <style>
-/* Стили для элементов списка */
+
 #timecodeList ul li {
   padding: 5px;
   cursor: pointer;
 }
 
-/* Стили для подсветки при наведении курсора */
+
 #timecodeList ul li:hover {
   background-color: lightgray;
 }
