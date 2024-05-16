@@ -10,9 +10,22 @@
         stage('Build-Hugo') {
             steps {
                 script{
+                    sh "docker rm -f immoviewer-documentation || true"
                     sh "docker build . -t immo-docs:latest"
                     sh "docker run --name immoviewer-documentation immo-docs:latest --noChmod --noTimes"
+                }
+            }
+        }
+        stage('Copy Files from Docker Container') {
+            steps{
+                script {
                     sh "docker cp immoviewer-documentation:/home/jenkins/web-app/public ./public"
+                } 
+            }
+        }
+        stage('Cleanup Docker Container') {
+            steps {
+                script {
                     sh "docker rm -f immoviewer-documentation"
                 }
             }
