@@ -1,18 +1,19 @@
-pipeline {
+    pipeline {
     agent any
-  	stages {
-  	    stage('Clean workspace and Checkout Code') {
-			steps {
-				cleanWs()
-				checkout scm
-			}
-		}
+    stages {
+        stage('Clean workspace and Checkout Code') {
+            steps {
+                cleanWs()
+                checkout scm
+            }
+        }
         stage('Build-Hugo') {
             steps {
                 script{
                     sh "docker build . -t immo-docs:latest"
                     sh "docker run --name immoviewer-documentation immo-docs:latest --noChmod --noTimes"
                     sh "docker cp immoviewer-documentation:/home/jenkins/web-app/public ./public"
+                    sh "docker rm -f immoviewer-documentation"
                 }
             }
         }
@@ -24,14 +25,29 @@ pipeline {
             }
         }
     }
-	post {
+    post {
         always {
-			cleanWs(cleanWhenNotBuilt: false,
-				deleteDirs: true,
-				disableDeferredWipeout: true,
-				notFailBuild: true,
-				patterns: [[pattern: '.gitignore', type: 'INCLUDE'],
-						    [pattern: '.propsfile', type: 'EXCLUDE']])
+            cleanWs(cleanWhenNotBuilt: false,
+                deleteDirs: true,
+                disableDeferredWipeout: true,
+                notFailBuild: true,
+                patterns: [[pattern: '.gitignore', type: 'INCLUDE'],
+                            [pattern: '.propsfile', type: 'EXCLUDE']])
+        }
+        success {
+            slackSend (
+                color: '#00FF00', 
+                message: "SUCCESS: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (<${env.BUILD_URL}|open>)", 
+                iconEmoji: ":white_check_mark:"
+            )
+        }
+        failure {
+            slackSend (
+                color: '#FF0000', 
+                message: "FAILURE: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (<${env.BUILD_URL}|open>)", 
+                iconEmoji: ":x:"
+            )
+
         }
     }
 }
