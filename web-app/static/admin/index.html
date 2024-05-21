@@ -8,9 +8,13 @@
 <body>
 <script>
   window.onload = function() {
-    CMS.init({
-      config: '/admin/config.yml'
-    })
+    if (typeof CMS !== 'undefined') {
+      CMS.init({
+        config: '/admin/config.yml'
+      });
+    } else {
+      console.error('Netlify CMS is not loaded correctly.');
+    }
   };
 </script>
 </body>
