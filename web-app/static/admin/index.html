@@ -1,19 +1,24 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Content Manager</title>
-  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netlify CMS</title>
 </head>
 <body>
+<div id="cms"></div> <!-- Это место, где должен быть добавлен Netlify CMS -->
+<script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
 <script>
   window.onload = function() {
-    if (typeof CMS !== 'undefined') {
+    const cmsContainer = document.getElementById('cms');
+    if (cmsContainer) {
       CMS.init({
-        config: '/admin/config.yml'
+        config: {
+          // ваш файл конфигурации
+        }
       });
     } else {
-      console.error('Netlify CMS is not loaded correctly.');
+      console.error('Netlify CMS is not loaded correctly because the container element does not exist.');
     }
   };
 </script>
