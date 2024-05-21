@@ -7,9 +7,11 @@
 </head>
 <body>
 <script>
-  CMS.init({
-    config: '/admin/config.yml'
-  })
+  window.onload = function() {
+    CMS.init({
+      config: '/admin/config.yml'
+    })
+  };
 </script>
 </body>
 </html>
