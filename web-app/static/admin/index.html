@@ -12,17 +12,32 @@
 
 <script>
   // Инициализация виджета Netlify Identity
-  netlifyIdentity.init();
+  if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+          if (!user) {
+              window.netlifyIdentity.open("signup");
+          }
+      });
+  }
 
   // Открытие формы регистрации при нажатии на кнопку
   document.getElementById('register-button').addEventListener('click', function() {
-      netlifyIdentity.open('signup');
+      if (window.netlifyIdentity) {
+          window.netlifyIdentity.open('signup');
+      } else {
+          console.log('Netlify Identity not initialized');
+      }
   });
 
   // Перенаправление пользователя после успешной регистрации
-  netlifyIdentity.on('login', () => {
-      document.location.href = '/admin/';
-  });
+  if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('login', () => {
+          document.location.href = '/admin/';
+      });
+  }
+
+  // Инициализация виджета Netlify Identity
+  window.netlifyIdentity.init();
 </script>
 </body>
 </html>
