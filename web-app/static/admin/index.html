@@ -3,42 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Netlify Identity Registration</title>
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com https://identity.netlify.com;">
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <title>Netlify CMS</title>
 </head>
 <body>
-<h1>Register</h1>
-<button id="register-button">Register</button>
-
+<div id="cms"></div> <!-- Это место, где должен быть добавлен Netlify CMS -->
+<script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
 <script>
-  // Инициализация виджета Netlify Identity
-  if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-          if (!user) {
-              window.netlifyIdentity.open("signup");
-          }
+  window.onload = function() {
+    const cmsContainer = document.getElementById('cms');
+    if (cmsContainer) {
+      CMS.init({
+        config: {
+          // ваш файл конфигурации
+        }
       });
-      window.netlifyIdentity.init();
-  } else {
-      console.log('Netlify Identity not initialized');
-  }
-
-  // Открытие формы регистрации при нажатии на кнопку
-  document.getElementById('register-button').addEventListener('click', function() {
-      if (window.netlifyIdentity) {
-          window.netlifyIdentity.open('signup');
-      } else {
-          console.log('Netlify Identity not initialized');
-      }
-  });
-
-  // Перенаправление пользователя после успешного входа
-  if (window.netlifyIdentity) {
-      window.netlifyIdentity.on('login', () => {
-          document.location.href = '/admin/';
-      });
-  }
+    } else {
+      console.error('Netlify CMS is not loaded correctly because the container element does not exist.');
+    }
+  };
 </script>
 </body>
 </html>
