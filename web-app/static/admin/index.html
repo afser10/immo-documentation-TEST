@@ -3,24 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Netlify CMS</title>
+  <title>Netlify Identity Registration</title>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-<div id="cms"></div> <!-- Это место, где должен быть добавлен Netlify CMS -->
-<script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+<h1>Register</h1>
+<button id="register-button">Register</button>
+
 <script>
-  window.onload = function() {
-    const cmsContainer = document.getElementById('cms');
-    if (cmsContainer) {
-      CMS.init({
-        config: {
-          // ваш файл конфигурации
-        }
-      });
-    } else {
-      console.error('Netlify CMS is not loaded correctly because the container element does not exist.');
-    }
-  };
+  // Инициализация виджета Netlify Identity
+  netlifyIdentity.init();
+
+  // Открытие формы регистрации при нажатии на кнопку
+  document.getElementById('register-button').addEventListener('click', function() {
+      netlifyIdentity.open('signup');
+  });
+
+  // Перенаправление пользователя после успешной регистрации
+  netlifyIdentity.on('login', () => {
+      document.location.href = '/admin/';
+  });
 </script>
 </body>
 </html>
