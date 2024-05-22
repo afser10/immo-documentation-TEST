@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../stackbit.config.ts"],
+  "sourcesContent": ["import { ContentfulContentSource } from \"@stackbit/cms-contentful\";\r\nimport { defineStackbitConfig } from \"@stackbit/types\";\r\n\r\nexport default defineStackbitConfig({\r\n  stackbitVersion: \"~0.6.0\",\r\n  contentSources: [\r\n    new ContentfulContentSource({\r\n      spaceId: process.env.CONTENTFUL_SPACE_ID!,\r\n      environment: process.env.CONTENTFUL_ENVIRONMENT!,\r\n      previewToken: process.env.CONTENTFUL_PREVIEW_TOKEN!,\r\n      accessToken: process.env.CONTENTFUL_MANAGEMENT_TOKEN!\r\n    })\r\n  ]\r\n});\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,4BAAwC;AACxC,mBAAqC;AAErC,IAAO,8BAAQ,mCAAqB;AAAA,EAClC,iBAAiB;AAAA,EACjB,gBAAgB;AAAA,IACd,IAAI,8CAAwB;AAAA,MAC1B,SAAS,QAAQ,IAAI;AAAA,MACrB,aAAa,QAAQ,IAAI;AAAA,MACzB,cAAc,QAAQ,IAAI;AAAA,MAC1B,aAAa,QAAQ,IAAI;AAAA,IAC3B,CAAC;AAAA,EACH;AACF,CAAC;",
+  "names": []
+}

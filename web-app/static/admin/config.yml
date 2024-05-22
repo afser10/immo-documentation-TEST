@@ -15,14 +15,4 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
 
-# Настройка аутентификации
-auth:
-  # Тип аутентификации
-  name: git-gateway
 
-  # Определение пользователей
-  users:
-    - name: Admin
-      email: afser@ukr.net
-      # Пароль
-      password: 11080ser
